@@ -36,7 +36,7 @@ use near_network_primitives::types::AccountOrPeerIdOrHash;
 use near_primitives::shard_layout::ShardUId;
 
 /// Maximum number of block headers send over the network.
-pub const MAX_BLOCK_HEADERS: u64 = 512;
+pub const MAX_BLOCK_HEADERS: u64 = 4096;
 
 /// Maximum number of block header hashes to send as part of a locator.
 pub const MAX_BLOCK_HEADER_HASHES: usize = 20;
